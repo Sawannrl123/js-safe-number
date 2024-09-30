@@ -1,32 +1,32 @@
 <h1 align="center">
-  safe-number 🔢
+  js-safe-number 🔢
 </h1>
 <p align="center">
 The safeNumber function ensures that any value passed to it is safely converted to a valid, finite number. Whether you’re dealing with strings, objects, arrays, or even Infinity, this utility guarantees that the result is a valid number or 0 in cases where conversion is not possible.
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/safe-number">
-    <img src="https://img.shields.io/npm/v/safe-number.svg" alt="Version" />
+  <a href="https://www.npmjs.com/package/js-safe-number">
+    <img src="https://img.shields.io/npm/v/js-safe-number.svg" alt="Version" />
   </a>
-  <a href="https://www.npmjs.com/package/safe-number">
-    <img src="https://img.shields.io/npm/dw/safe-number.svg" alt="Downloads/week" />
+  <a href="https://www.npmjs.com/package/js-safe-number">
+    <img src="https://img.shields.io/npm/dw/js-safe-number.svg" alt="Downloads/week" />
   </a>
-  <a href="https://github.com/Sawannrl123/safe-number/blob/main/package.json">
-    <img src="https://img.shields.io/npm/l/safe-number.svg" alt="License" />
+  <a href="https://github.com/Sawannrl123/js-safe-number/blob/main/package.json">
+    <img src="https://img.shields.io/npm/l/js-safe-number.svg" alt="License" />
   </a>
-  <a href="https://github.com/Sawannrl123/safe-number/network/members">
-    <img src="https://img.shields.io/github/forks/Sawannrl123/safe-number" alt="Forks on GitHub" />
+  <a href="https://github.com/Sawannrl123/js-safe-number/network/members">
+    <img src="https://img.shields.io/github/forks/Sawannrl123/js-safe-number" alt="Forks on GitHub" />
   </a>
-  <a href="https://github.com/Sawannrl123/safe-number/stargazers">
-    <img src="https://img.shields.io/github/stars/Sawannrl123/safe-number" alt="Forks on GitHub" />
+  <a href="https://github.com/Sawannrl123/js-safe-number/stargazers">
+    <img src="https://img.shields.io/github/stars/Sawannrl123/js-safe-number" alt="Forks on GitHub" />
   </a>
-  <img src="https://badgen.net/bundlephobia/minzip/safe-number" alt="minified + gzip size" />
+  <img src="https://badgen.net/bundlephobia/minzip/js-safe-number" alt="minified + gzip size" />
 </p>
 
 ## Why?
 
-- ![Bundle size](https://badgen.net/bundlephobia/minzip/safe-number)
+- ![Bundle size](https://badgen.net/bundlephobia/minzip/js-safe-number)
 - **No dependencies**
 - Light weighted
 - Typescript support
@@ -71,13 +71,13 @@ const value = safeNumber(Infinity);  // Returns 0
 ## 🔧 Usage
 
 ```bash
-npm install safe-number # yarn add safe-number
+npm install js-safe-number # yarn add js-safe-number
 ```
 
 Then use in your project:
 
 ```ts
-const safeNumber = require('safe-number');
+const safeNumber = require('js-safe-number');
 
 const num = safeNumber("123abc");  // Returns 0
 const safeNum = safeNumber(Infinity);  // Returns 0
@@ -105,8 +105,8 @@ console.log(safeNumber(Math.pow(2, 53))); // 0 (because it exceeds MAX_SAFE_INTE
 3. **Cross-Environment Consistency 🌍**:- Whether in the browser or on the server (Node.js), safeNumber ensures that all numeric operations are predictable and error-free.
 
 #### Links
-- [Github Repository](https://github.com/Sawannrl123/safe-number)
-- [NPM Page](https://www.npmjs.com/package/safe-number)
+- [Github Repository](https://github.com/Sawannrl123/js-safe-number)
+- [NPM Page](https://www.npmjs.com/package/js-safe-number)
 
 #### 📜 License
 This module is open-sourced under the MIT License.
