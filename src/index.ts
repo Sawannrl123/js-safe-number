@@ -1,4 +1,4 @@
-export function safeNumber(value: any) {
+function safeNumber(value: any): number {
     // Convert the value to a number
     let num = Number(value);
 
