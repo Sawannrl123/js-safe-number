@@ -7,13 +7,13 @@ The safeNumber function ensures that any value passed to it is safely converted 
 
 <p align="center">
   <a href="https://www.npmjs.com/package/js-safe-number">
-    <img src="https://img.shields.io/npm/v/js-safe-number.svg" alt="Version" />
+    <img src="https://img.shields.io/npm/v/js-safe-number" alt="Version" />
   </a>
   <a href="https://www.npmjs.com/package/js-safe-number">
-    <img src="https://img.shields.io/npm/dw/js-safe-number.svg" alt="Downloads/week" />
+    <img src="https://img.shields.io/npm/dw/js-safe-number" alt="Downloads/week" />
   </a>
   <a href="https://github.com/Sawannrl123/js-safe-number/blob/main/package.json">
-    <img src="https://img.shields.io/npm/l/js-safe-number.svg" alt="License" />
+    <img src="https://img.shields.io/npm/l/js-safe-number" alt="License" />
   </a>
   <a href="https://github.com/Sawannrl123/js-safe-number/network/members">
     <img src="https://img.shields.io/github/forks/Sawannrl123/js-safe-number" alt="Forks on GitHub" />
@@ -21,12 +21,12 @@ The safeNumber function ensures that any value passed to it is safely converted 
   <a href="https://github.com/Sawannrl123/js-safe-number/stargazers">
     <img src="https://img.shields.io/github/stars/Sawannrl123/js-safe-number" alt="Forks on GitHub" />
   </a>
-  <img src="https://badgen.net/bundlephobia/minzip/js-safe-number" alt="minified + gzip size" />
+  <img src="https://img.shields.io/bundlephobia/minzip/js-safe-number" alt="minified + gzip size" />
 </p>
 
 ## Why?
 
-- ![Bundle size](https://badgen.net/bundlephobia/minzip/js-safe-number)
+- ![Bundle size](https://img.shields.io/bundlephobia/minzip/js-safe-number)
 - **No dependencies**
 - Light weighted
 - Typescript support
