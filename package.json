@@ -1,6 +1,6 @@
 {
   "name": "js-safe-number",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "The safeNumber package ensures safe conversion of any value to a valid, finite number in JavaScript. It handles diverse inputs like strings, objects, arrays, null, undefined, and Infinity, always returning a reliable number or 0 for invalid cases. Whether you're working in a browser or on Node.js, safeNumber guarantees safe integer calculations, avoiding crashes and errors caused by unpredictable input or extremely large numbers beyond JavaScript's safe integer limit (2^53). Perfect for robust input validation and maintaining stable numeric operations in your applications.",
   "main": "dist/index.js",
   "types": "dist/types/index.d.ts",

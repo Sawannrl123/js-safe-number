@@ -31,6 +31,7 @@ The safeNumber function ensures that any value passed to it is safely converted 
 - Light weighted
 - Typescript support
 - Works on both server and client
+- Works with vanila as well as all js frameworks
 
 ## 🚀 Features
 
@@ -77,7 +78,9 @@ npm install js-safe-number # yarn add js-safe-number
 Then use in your project:
 
 ```ts
-const safeNumber = require('js-safe-number');
+const safeNumber = require('js-safe-number').default;
+
+// import safeNumber from 'js-safe-number'; // es6
 
 const num = safeNumber("123abc");  // Returns 0
 const safeNum = safeNumber(Infinity);  // Returns 0
